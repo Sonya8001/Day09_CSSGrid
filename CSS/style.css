@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(255, 245, 227);
+}
+.nav {
+    list-style-type: none;
+    background-color: rgb(255, 211, 167);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.nav li {
+    float: left
+}
+ul.nav li a {
+    display: block;
+    padding: 8px 16px;
+    color: black;
+    text-decoration: none;
+    
+}
+ul.nav a:hover {
+    background-color: #f6b67b;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(249, 204, 163);
+}
+
+.navmenu {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+.title-section {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    padding: 1px 2px;
+}
+
+.image-section {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+}
+
+.main-section {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+}
+
+.support1-section {
+    grid-column: 1/span 1;
+    grid-row: 5;
+    background-color: rgb(227, 178, 104);
+}
+
+.support2-section {
+    grid-column: 2 / span 1;
+    grid-row: 5;
+    background-color:rgb(227, 178, 104);
+}
+
+.main2-section {
+    grid-column: 1 / span 2;
+    grid-row: 6;
+}
+
+.sidenav-section {
+    grid-column: 3 / span 1;
+    grid-row: 4 / span 3;
+    background-color: rgb(202, 114, 31);
+}
+
+.h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.h2 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.p {
+    font-size: 10px;
+    text-align: center;
+}
+
